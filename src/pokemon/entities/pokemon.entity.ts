@@ -7,12 +7,12 @@ export class Pokemon extends Document {
     unique: true,
     index: true,
   })
-  name: string;
+  no: number;
   @Prop({
     unique: true,
     index: true,
   })
-  no: number;
+  name: string;
 }
 
 export const PokemonSchema = SchemaFactory.createForClass(Pokemon);
