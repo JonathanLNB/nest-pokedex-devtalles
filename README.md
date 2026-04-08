@@ -24,6 +24,11 @@ yarn install
 ```
 docker compose up -d
 ```
+5. Reconstruir la base de datos
+```
+GET
+http://localhost:3000/api/v2/seed
+```
 
 ## Stack usado
 * MongoDB
